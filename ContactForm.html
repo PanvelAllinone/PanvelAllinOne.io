@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>UlweAllinOne</title>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="img/logo.gif" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet"> 
+    
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="" />
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body class="goto-here">
+			<div class="py-1 bg-primary" id="parentTopHeaderSection"></div>
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	    
+	      <P style="color:white; font-size:18px;" style="font-family:garamond"><b> UlweAllinOne</b></P>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+	          <li class="nav-item active"><a href="ContactForm.html" class="nav-link">Feedback\Suggestions</a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    <!-- END nav -->
+
+        <div class="container">
+		
+            <form id="contact" action="" method="post">
+                <h3 style="color:darkgreen"> Enquiry \ Feedback \ Suggestions Details </h3>
+				<div class="row text-center" style="display: block;width: 100%;">
+					<img src="img/feedback.jpg" style="max-width:100%">
+				</div>
+				<fieldset>
+                    <label for="Name">Related To</label>
+		                  <select name="" id="Product" class="form-control"></select>
+                </fieldset>
+                
+                <fieldset>
+                    <label for="Name">Your Name / Order Id</label>
+                    <input id="Name" placeholder="Your Order Id / Name" maxlength=50 class="form-control" type="text" cols="50" tabindex="1" style="margin-bottom: 10px" required autofocus>
+                </fieldset>
+
+                <fieldset>
+                    <label for="phonenumber">Your Mobile Number / Email Id </label>
+                    <input id="phoneNO" placeholder="Mobile Number / Email Id" maxlength=10 class="form-control" aria-describedby="phonenumberHelp" type="tel" rows="1" cols="50" tabindex="2" required>
+                    <small id="phonenumberHelp" class="form-text text-muted" >We'll never share your mobiles number/ email id with anyone else.</small>
+                </fieldset>
+
+                <fieldset>
+                    <label for="message">Message Details: </label>
+                    <textarea id="message" placeholder="Type your message here...." maxlength=1000 class="form-control" rows="4" cols="50" tabindex="3" style="margin-bottom: 10px" required></textarea>
+                </fieldset>
+
+                <fieldset >
+                    <input type="button"  onclick="return submitFeedBack(this)" class="btn btn-primary py-3 px-5" id="contact-submit"  style="margin-bottom: 22px;font-size: 20px;" value="Submit Feedback" />
+                </fieldset>
+
+            </form>
+        </div>
+
+
+        <div class="clear"></div>
+
+   	<div id="footersection"></div>
+      <script src="js/jquery.min.js"></script>
+	  	<script id="myConfigLib" myCustomAttrib="P"  src="js/config.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script id="myscriptLib" myCustomAttrib="common"  src="js/script-lib.js"></script>
+	<script>
+		initFeedBackVendors();
+	</script>
+</body>
+
+</html>
