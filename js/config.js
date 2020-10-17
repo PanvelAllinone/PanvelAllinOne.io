@@ -1,4 +1,3 @@
-
 var myPath="../";
 if(document.getElementById("myConfigLib") != null){
 	myPath="";
@@ -11,14 +10,14 @@ var footerSection =  '<br><br><footer class="footer">'+
                             '<h3>CONTACT US</h3>'+
                             '<ul>'+
                                 '<li><a href="javascript:void(0)"><i class="material-icons">location_on</i>Sector 23, Plot Number 142, ULWE, Navi Mumbai</a></li>'+
-                                '<li><a href="mailto:info@ulweallinone.in" target="_blank"><i class="material-icons">email</i>info@ulweallinone.in</a></li>'+							''+								
+                                '<li><a href="mailto:info@panvelallinone.in" target="_blank"><i class="material-icons">email</i>info@panvelallinone.in</a></li>'+							''+								
 								'<li><a href="'+myPath+'PrivacyPolicy.html"><i class="material-icons">privacy_tip</i>Privacy Policy / Team & Condition</a></li>'+
 								'<li>'+
 									'<a target="_blank" href="https://api.whatsapp.com/send?phone=+919820684534&amp;text=Hi"><img src="'+myPath+'img/whatsapp.png" style="height:40px"></a>&nbsp;&nbsp;'+
 									'<a href="#" onclick="return openFBDetails();" ><img style="height:40px" src="'+myPath+'img/fb.png"></a>&nbsp;&nbsp;'+
-									'<a target="_blank" href="http://twitter.com/share?text=Ulwe AllinOne Best website in Navi Mumbai&url=http://ulweallinone.in&hashtags=Ulwe,naviMumbai" ><img src="'+myPath+'img/twitter.png" style="height:40px" /></a>&nbsp;&nbsp;'+
+									'<a target="_blank" href="http://twitter.com/share?text=Panvel AllinOne Best website in Navi Mumbai&url=https://panvelallinone.in&hashtags=Panvel,NaviMumbai" ><img src="'+myPath+'img/twitter.png" style="height:40px" /></a>&nbsp;&nbsp;'+
 									'<a href="tel:9820684534"><img style="height:40px" src="'+myPath+'img/callus.png"></a>&nbsp;&nbsp;'+
-									'<a href="mailto:info@ulweallinone.in" target="_blank"><img style="height:40px" src="'+myPath+'img/email.png"></a>'+
+									'<a href="mailto:info@panvelallinone.in" target="_blank"><img style="height:40px" src="'+myPath+'img/email.png"></a>'+
 								'</li>'+
 				    		'</ul>'+
                         '</div>'+
@@ -28,14 +27,14 @@ var footerSection =  '<br><br><footer class="footer">'+
                             '<br>'+
                             '<ul>'+
                                 '<li><img src="'+myPath+'img/3dDesignLogo.png" /></li>'+
-								'<li class="playStoreIcon"><a target="_blank" href="https://play.google.com/store/apps/details?id=com.ulweallinone&amp;pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img alt="Get it on Google Play" src="'+myPath+'img/applogo.PNG" style="height:60px;border-radius:10px"></a></li>'+
+								'<li class="playStoreIcon"><a target="_blank" href="https://play.google.com/store/apps/details?id=com.panvelallinone&amp;pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img alt="Get it on Google Play" src="'+myPath+'img/applogo.PNG" style="height:60px;border-radius:10px"></a></li>'+
 							'</ul>'+
                         '</div>'+
                     '</div>'+
                 '</div>'+
             '</div>'+
             '<div class="footer_bottom">'+
-                '<p>Copyright@2020 <a href="javascript:void(0)" id="serviceArea">UlweAllinOne</a> All Rights Reserved</p>'+
+                '<p>Copyright@2020 <a href="javascript:void(0)" id="serviceArea">PanvelAllinOne</a> All Rights Reserved</p>'+
             '</div>'+
         '</footer>';
 		
@@ -175,7 +174,7 @@ var parentTopHeader =
 					    '</div>'+
 						'<div class="col-md-4">'+
 							'<a href="Registration.html"><img src="img/DoBusinessWithUs.png" width="175" height="60"></a>'+
-							'<span class="text playStoreIcon">&nbsp;<a href="https://play.google.com/store/apps/details?id=com.ulweallinone&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img alt="Get it on Google Play" src="img/applogo.PNG" style="height:40px;border-radius:10px;"/></a></span>'+
+							'<span class="text playStoreIcon">&nbsp;<a href="https://play.google.com/store/apps/details?id=com.panvelallinone&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img alt="Get it on Google Play" src="img/applogo.PNG" style="height:40px;border-radius:10px;"/></a></span>'+
 					    '</div>'+					   
 				    '</div>'+
 			    '</div>'+
@@ -190,6 +189,6 @@ $("#footersection").html(footerSection);
 $("#deliverysection").html(deliverySection);  
 
 function openFBDetails(){
-	window.open("https://www.facebook.com/sharer/sharer.php?u=ulweallinone.in", "pop", "width=600, height=400, scrollbars=no");
+	window.open("https://www.facebook.com/sharer/sharer.php?u=panvelallinone.in", "pop", "width=600, height=400, scrollbars=no");
 	return false;
 }	
